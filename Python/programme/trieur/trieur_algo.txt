@@ -1,0 +1,17 @@
+nom : Trieur
+role : repartir les enfants selon des groupes d'age
+entrées: aucune
+sortie : aucune 
+
+attributs : age numerique, categorie string, 
+methodes : trier(), affecter_categorie()
+
+V2 
+nom : Trieur
+role : repartir les enfants selon des groupes d'age
+entrées: aucune
+sortie : aucune 
+
+attributs : age numerique, categorie string, liste_categorie (tableau de taille 5 et de type string) 
+
+methodes : trier(), affecter_categorie()

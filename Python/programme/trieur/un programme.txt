@@ -1,0 +1,19 @@
+nom : programme_objet
+role : construire un objet de classe Animal (bibliotheque lib), lui donner 4 pattes et le faire se nourrir et se déplacer.  
+entrée : aucune
+sortie : aucune
+
+variables: mon_animal en Animal
+Debut 
+mon_animal <= objet de classe Animal
+mon_animal.pattes <= 4 
+mon_animal.se_nourrir
+mon_animal.se_deplacer
+Fin
+
+from lib import Animal
+mon_animal = Animal()
+#On affecte à l'attribut nombre_de_pattes de mon_animal la valeur 4.
+mon_animal.nombre_de_pattes = 4
+mon_animal.se_nourrir()
+mon_animal.se_deplacer()
